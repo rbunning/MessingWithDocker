@@ -2,4 +2,6 @@
 FROM ubuntu 
 MAINTAINER Regan
 
-CMD [“echo”,”Image created”] 
+RUN echo "RTB say what?"
+
+CMD [“echo”,”Image created. Hi there.”] 
